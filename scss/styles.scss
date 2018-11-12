@@ -150,9 +150,9 @@ body {
     padding: 3rem 2.5%;
     text-align: center;
     position: relative;
-    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9 ,0.25);
     -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9 ,0.25);
     -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9 ,0.25);
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9 ,0.25);
     border-radius: .35rem;
     
     h3 {
@@ -164,6 +164,7 @@ body {
     p {
       margin: 0 0 2rem 0;
       color: $dark_grey;
+      font-size: 1em;
     }
     
     .button {
@@ -179,6 +180,7 @@ body {
       border-left: 2px solid #c9c7d3;
     }
   }
+
   .middle {
     &:after {
       bottom: -105px;
